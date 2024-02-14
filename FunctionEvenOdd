@@ -1,0 +1,18 @@
+#include <stdio.h>
+void fun(int x){
+    printf("The number is Even");
+}
+void funto(int y){
+    printf("the number is odd");
+}
+int main(){
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    if(n%2==0){
+        fun(n);
+    }
+    if(n%2!=0){
+        funto(n);
+    }
+}
